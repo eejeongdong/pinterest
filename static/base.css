@@ -1,0 +1,33 @@
+.pragmatic_header{
+  text-align:center; margin: 2rem 0;
+}
+.pragmatic_footer{
+  text-align:center; margin-top:2rem;
+}
+.pragmatic_logo {
+  /*font-family: 'Gugi', cursive;*/
+  font-family: 'Jua', sans-serif;
+}
+.pragmatic_footer_button {
+  font-size: .8rem;
+}
+a {
+  color:black;
+  text-decoration: none;
+}
+a:hover {
+  color:black;
+}
+
+@media screen and (max-width: 500px){
+  html{
+    font-size: 13px;
+  }
+}
+
+.pragmatic_header_nav{
+  margin: 0 0.5rem;
+}
+.pragmatic_header_navbar{
+  margin: 1rem 0;
+}
