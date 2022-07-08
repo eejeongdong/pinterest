@@ -14,8 +14,6 @@ RUN pip install gunicorn
 
 RUN pip install mysqlclient
 
-# RUN echo "SECRET_KEY=django-insecure-w(e$$4t3z^&5$68q&9(j6sf&9ab#(vgwiwe_t$-==iht95+0*9" > .env
-
 # RUN export DJANGO_SETTINGS_MODULE=pragmatic.settings
 
 EXPOSE 8000
